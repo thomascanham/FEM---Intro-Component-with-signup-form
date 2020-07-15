@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    /* primary colours */
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+
+    /* accent colours */
+    --blue: hsl(248, 32%, 49%);
+
+    /* neutral colours */
+    --DarkBlue: hsl(249, 10%, 26%);
+    --GrayishBlue: hsl(246, 25%, 77%);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(./images/bg-intro-desktop.png), var(--red);
+}
+
+.container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading {
+    width: 50%;
+    color: white;
+    padding: 1rem;
+}
+
+.heading h1 {
+    font-weight: 700;
+    font-size: 54px;
+    margin-bottom: 3rem;
+    line-height: 100%;
+}
+
+.sign-up-form {
+    width: 50%;
+    padding: 1rem;
+}
+
+.sign-up-form-header {
+    background: var(--blue);
+    padding: 1rem;
+    text-align: center;
+
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+    -webkit-box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.3);
+}
+
+.sign-up-form-header h2 {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+
+.sign-up-form h2 span {
+    font-weight: bold;
+}
+
+.sign-up-form form {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+
+    -webkit-box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    position: relative;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: var(--DarkBlue);
+}
+
+input[type="submit"] {
+    background-color: var(--green);
+    color: white;
+    text-transform: uppercase;
+
+    -webkit-box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.1);
+}
+
+.form-terms {
+    font-size: 14px;
+    color: var(--GrayishBlue);
+    text-align: center;
+}
+
+.form-terms a {
+    color: var(--red);
+    text-decoration: none;
+}
