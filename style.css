@@ -34,7 +34,6 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     height: 100vh;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -135,4 +134,38 @@ input[type="submit"] {
 .form-terms a {
     color: var(--red);
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .container {
+        display: block;
+        margin-top: 5rem;
+        width: 95%;
+        padding: .5rem;
+    }
+
+    .heading {
+        text-align: center;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .heading h1 {
+        font-size: 28px;
+        line-height: 120%;
+    }
+
+    .sign-up-form {
+        width: 100%;
+    }
+
+    .sign-up-form form {
+        padding: 1rem;
+    }
+
+    .form-terms {
+        font-size: 12px;
+    }
+
 }

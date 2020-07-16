@@ -1,3 +1,15 @@
+## What is this?
+
+This is my solution to the Front End Mentor challenge to build an Intro component page with a sign up form.
+
+I am still an amateur at writing code and i am trying to come back to the basics of writing clean html and css to learn basic design
+
+[Here is the challenge page](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
+
+
+
+
+
 # Frontend Mentor - Intro component with sign up form
 
 ![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
